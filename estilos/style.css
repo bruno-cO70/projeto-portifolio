@@ -93,6 +93,12 @@ section#ficha h1{
  font-size: 1.5em;
  text-align: left;
 }
+section#ficha p{
+  text-align: justify;
+  color: var(--texto);
+  font-size: 0.8em;
+  padding: 5px;
+}
 div#social{
   display: flex;
   justify-content: center;
@@ -122,14 +128,14 @@ article h2{
   color: var(--destaque);
   margin-bottom: 20px;
 }
-.video-container{
+.foto-container{
   position: relative;
   width: 100%;
   margin: auto;
   aspect-ratio: 16/9;
   
 }
-.video-container iframe{
+.foto-container img.foto{
   position: absolute;
   top: 0;
   left: 0;
